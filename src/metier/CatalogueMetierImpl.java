@@ -19,7 +19,7 @@ public class CatalogueMetierImpl implements ICatalogueMetier{
             ps.setString(1, "%"+mc+"%");
             ResultSet rs = ps.executeQuery();
             while(rs.next()){
-              Produit p = new Produit();
+              Produit p = new Produit( );
               p.setIdProduit(rs.getInt("ID_PRODUIT"));
               p.setNomProduit(rs.getString("NOM_PRODUIT"));
               p.setPrix(rs.getDouble("PRIX"));
@@ -32,7 +32,7 @@ public class CatalogueMetierImpl implements ICatalogueMetier{
 
             e.printStackTrace();
         }
-        return null;
+        return produits;
     }
 
 

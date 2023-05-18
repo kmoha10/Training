@@ -2,13 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="16bacd05-edd2-4181-9b99-8248afcda2bf" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/TPJDBC.iml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/TestJDBC.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/TPJDBC/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/out/production/TPJDBC/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/metier/CatalogueMetierImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/metier/CatalogueMetierImpl.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/metier/Produit.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/metier/Produit.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/pres/Presentation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/pres/Presentation.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -53,7 +51,33 @@
     &quot;project.structure.side.proportion&quot;: &quot;0.39885056&quot;
   }
 }</component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Application.CatalogueSWING">
+    <configuration name="CatalogueSWING" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="src.ihm.CatalogueSWING" />
+      <module name="TPJDBC" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="src.ihm.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="Presentation" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="src.pres.Presentation" />
+      <module name="TPJDBC" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="src.pres.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="TestJDBC" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="src.TestJDBC" />
       <module name="TPJDBC" />
@@ -69,6 +93,8 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.CatalogueSWING" />
+        <item itemvalue="Application.Presentation" />
         <item itemvalue="Application.TestJDBC" />
       </list>
     </recent_temporary>
@@ -84,7 +110,8 @@
       <workItem from="1683784956075" duration="4981000" />
       <workItem from="1683852471772" duration="4790000" />
       <workItem from="1684088213888" duration="4178000" />
-      <workItem from="1684155518891" duration="2025000" />
+      <workItem from="1684155518891" duration="2765000" />
+      <workItem from="1684346886830" duration="6135000" />
     </task>
     <servers />
   </component>

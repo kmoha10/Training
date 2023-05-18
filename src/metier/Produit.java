@@ -40,14 +40,14 @@ public class Produit implements Serializable {
         this.quantite = quantite;
     }
 
-    public Produit(int idProduit, String nomProduit, double prix, int quantite) {
+    public Produit() {
         this.idProduit = idProduit;
         this.nomProduit = nomProduit;
         this.prix = prix;
         this.quantite = quantite;
     }
 
-    public Produit() {
+    public Produit(String nom, double prix, int quantite) {
     }
 
 
